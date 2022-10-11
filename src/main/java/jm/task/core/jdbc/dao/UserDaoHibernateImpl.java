@@ -12,9 +12,6 @@ public class UserDaoHibernateImpl implements UserDao {
 
     private Transaction transaction;
 
-    // public UserDaoHibernateImpl() {
-    //}
-
     @Override
     public void createUsersTable() {
         Session session = getSessionFactory().getCurrentSession();
